@@ -1,3 +1,16 @@
+// const createElements = (arr) => {
+//     const htmlElements = arr.map(el => `<span class="btn">${el}</span>`);
+//     console.log(htmlElements.join(" "));
+// }
+
+// const synonyms = ["hello", "hi", "konnichiwa"];
+// createElements(synonyms);
+
+
+
+
+
+
 
 const loadLessons = () => {
     fetch("https://openapi.programming-hero.com/api/levels/all") // Promise of response
